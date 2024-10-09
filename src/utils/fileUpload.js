@@ -2,8 +2,8 @@ const multer = require('multer');
 const { nanoid } = require('nanoid');
 const fs = require('fs');
 const path = require('path');
-const http = require("../../folderS,F,E/S,F,E.JS");
-const { First, Second, Third } = require("../../utils/httperespons.js");
+const http = require("../folderS,F,E/S,F,E.JS");
+const { First, Second, Third } = require("./httperespons.js");
 
 // Middleware for handling multer errors
 const HME = (err, req, res, next) => {
